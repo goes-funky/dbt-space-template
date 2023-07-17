@@ -10,5 +10,4 @@ Read the docs: https://docs.y42.dev/canonical/sql-query
 
 */
 
-
 select * from {{ ref('my_first_model') }}
