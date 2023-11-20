@@ -1,4 +1,4 @@
-/*
+{#
 
 ⚠️ You can only preview this model after `my_first_model` has been materialized
 
@@ -8,6 +8,6 @@
 
 Read the docs: https://docs.y42.dev/canonical/sql-query
 
-*/
+#}
 
 select * from {{ ref('my_first_model') }}
